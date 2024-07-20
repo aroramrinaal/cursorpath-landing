@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           Webstore
         </Link>
-        <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+        <Link href="/features" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           Features
         </Link>
         <Link href="https://github.com/aroramrinaal/cursorpath-landing" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
