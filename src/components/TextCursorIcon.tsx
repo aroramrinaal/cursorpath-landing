@@ -5,11 +5,11 @@ function TextCursorIcon(props: React.PropsWithChildren<{}>) {
       <svg
         {...props}
         xmlns="http://www.w3.org/2000/svg"
-        width="30"
+        width="40"
         height="50"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="currentColor"
+        stroke="white"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
