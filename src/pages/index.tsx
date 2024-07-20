@@ -25,6 +25,10 @@ const Home = () => {
           </div>
         </div>
       </main>
+      <footer className="w-full py-2 px-4 border-t border-border/40 flex justify-between items-center text-xs text-muted-foreground">
+        <p>&copy; 2024 Cursor Path. All rights reserved.</p>
+        <p>Made with React, TypeScript, Tailwind and ❤️</p>
+      </footer>
     </div>
   );
 }
