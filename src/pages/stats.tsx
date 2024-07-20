@@ -3,7 +3,7 @@ import React from "react";
 
 const StatsPage = () => {
     return (
-            <Navbar />
+        <div className="bg-background"></div>
     );
 };
 
