@@ -9,10 +9,22 @@
 // };
 
 // export default StatsPage;
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 
 const StatsPage = () => {
+    useEffect(() => {
+        // Listen for custom event indicating the extension is installed
+        window.addEventListener("extension-detected", () => {
+            const statsElement = document.getElementById('extension-stats');
+            const placeholderElement = document.getElementById('extension-stats-placeholder');
+            if (statsElement && placeholderElement) {
+                statsElement.style.display = 'block';
+                placeholderElement.style.display = 'none';
+            }
+        });
+    }, []);
+
     return (
         <div className="min-h-screen flex flex-col bg-background text-foreground">
             <Navbar />
@@ -35,3 +47,4 @@ const StatsPage = () => {
 };
 
 export default StatsPage;
+
