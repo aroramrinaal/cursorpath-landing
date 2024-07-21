@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Cursor Path: Track Your Mouse Journey</title>
+        <title>Cursor Path | Track Your Mouse Journey</title>
       </Head>
       <Component {...pageProps} />
     </>
