@@ -10,6 +10,9 @@ const Navbar = () => {
         <span className="sr-only">Cursor Path</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6 text-foreground">
+        <Link href="/" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+          Home
+        </Link>
         <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
           Webstore
         </Link>
