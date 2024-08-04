@@ -16,7 +16,7 @@ const Home = () => {
               movements, measure precise pixel distances, and track your lifetime achievements.
             </p>
             <Link
-              href="#"
+              href="https://chromewebstore.google.com/detail/cursor-path/mbdjmnlimadokilnbchhooijjphlipfc"
               className="inline-flex h-12 items-center justify-center rounded-md bg-card px-6 py-3 text-base font-medium text-primary-foreground shadow transition-colors hover:bg-white hover:text-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
             >

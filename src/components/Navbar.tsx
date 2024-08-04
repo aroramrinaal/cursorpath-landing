@@ -47,7 +47,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hidden lg:block">
-            <Link href="#" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="https://chromewebstore.google.com/detail/cursor-path/mbdjmnlimadokilnbchhooijjphlipfc" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
               Webstore
             </Link>
           </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hidden lg:block">
-            <Link href="https://github.com/aroramrinaal/cursorpath-landing" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
+            <Link href="https://github.com/aroramrinaal/cursor-path" className="text-xl font-medium hover:underline underline-offset-4" prefetch={false}>
               Github
             </Link>
           </li>
